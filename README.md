@@ -29,16 +29,12 @@ A simple Employee CRUD API Implementation with SpringBoot and MySQL Database.
 
 ## **My application Properties:**
 
-```code
+```code:java
 spring.datasource.url=jdbc:mysql://localhost:3306/my_db_name?useSSL=false
-
 spring.datasource.username=my_db_username
-
 spring.datasource.password=my_db_password
 
-/*
-To allow Auto-update of DB Table definition based on model (Entity class)
-*/
+// To allow Auto-update of DB Table definition based on model (Entity class)
 spring.jpa.hibernate.ddl-auto=update
 ```
 
