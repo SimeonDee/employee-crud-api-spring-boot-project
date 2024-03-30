@@ -48,9 +48,9 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## **API structure:**
 
-**Endpoint:** `POST "/employees"`
-**Desc:** create a new employee
-**Payload Sample:**
+- **Endpoint:** `POST "/employees"`
+- **Desc:** create a new employee
+- **Payload Sample:**
 
 ```json
 {
@@ -63,19 +63,19 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-**Endpoint:** `GET "/employees"`
-**Desc:** fetch all employee records
+- **Endpoint:** `GET "/employees"`
+- **Desc:** fetch all employee records
 
 ---
 
-**Endpoint:** `GET "/employees/:id"`
-**Desc:** fetch record of employee with given "id".
+- **Endpoint:** `GET "/employees/:id"`
+- **Desc:** fetch record of employee with given "id".
 
 ---
 
-**Endpoint:** `PATCH "/employees/:id"`
-**Desc:** Updates record of employee with given "id" using the data provided in the payload.
-**Payload Sample:**
+- **Endpoint:** `PATCH "/employees/:id"`
+- **Desc:** Updates record of employee with given "id" using the data provided in the payload.
+- **Payload Sample:**
 
 ```json
 {
@@ -90,5 +90,5 @@ _Note:_ Configured to allow partial update.
 
 ---
 
-**Endpoint:** `DELETE "/employees/:id"`
-**Desc:** deletes employee with given "id"
+- **Endpoint:** `DELETE "/employees/:id"`
+- **Desc:** deletes employee with given "id"
