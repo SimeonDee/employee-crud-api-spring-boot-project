@@ -18,13 +18,9 @@ A simple Employee CRUD API Implementation with SpringBoot and MySQL Database.
 ## **Dependencies used:**
 
 - spring-boot-starter-web (for Spring MVC and RESTful API dev)
-
 - spring-boot-starter-data-jpa (For DB Persistent Storage)
-
 - spring-boot-devtools (for auto-restart on save)
-
 - mysql-connector-j (MySQL Driver for Java connectivity)
-
 - Lombok (for boilerplates code generation using @rate e.g. @RestController, @Data, etc)
 
 ## **My application Properties:**
